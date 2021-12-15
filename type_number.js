@@ -9,10 +9,10 @@ console.log(soma)
 
 // tipo flutuante
 
-const num_1 = 5.2;
-const num_2 = 1.6;
+const num1 = 5.2;
+const num2 = 1.6;
 
-const subtracao = num_1 - num_2;
+const subtracao = num1 - num2;
 
 console.log(subtracao);
 
@@ -31,15 +31,15 @@ console.log(tentativaDeMultiplicacao);
 // area de teste 
 
 const num = 1;
-const num_3 = 0;
+const num3 = 0;
 
-num_4 = 3.612734861782;
-num_5 = 3.612734861782;
+num4 = 3.612734861782;
+num5 = 3.612734861782;
 
-const operacao = num / num_3;
+const operacao = num / num3;
 
-num_4 = Math.round(num_4);
+num4 = Math.round(num4);
 
 console.log(operacao);
-console.log(num_4);
-console.log(num_5.toFixed(2));
+console.log(num4);
+console.log(num5.toFixed(2));

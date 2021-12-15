@@ -1,15 +1,15 @@
 // tipo string
 
-const texto_0 = "Olá, mundo!";
-const texto_1 = 'Olá, mundo!';
+const texto0 = "Olá, mundo!";
+const texto1 = 'Olá, mundo!';
 
-const texto_2 = "12341231234";
+const texto2 = "12341231234";
 
-const citacao_0 = "Eis a questão 'como citar algo'";
-const citacao_1 = 'Eis a questão "como citar algo"';
+const citacao0 = "Eis a questão 'como citar algo'";
+const citacao1 = 'Eis a questão "como citar algo"';
 
-console.log(citacao_0);
-console.log(citacao_1);
+console.log(citacao0);
+console.log(citacao1);
 
 // concatenação (+)
 
