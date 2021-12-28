@@ -1,0 +1,26 @@
+{
+  "name": "projeto-nodejs-rest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ViiniciusK9/trilha_blockchain.git"
+  },
+  "author": "Vinicius Koncicoski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ViiniciusK9/trilha_blockchain/issues"
+  },
+  "homepage": "https://github.com/ViiniciusK9/trilha_blockchain#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
