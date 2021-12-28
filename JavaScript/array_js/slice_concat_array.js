@@ -10,5 +10,14 @@
 console.log(`tamanho da listaNum: ${listaNum.length}`) 
 console.log(`metade do tamanho da listaNum: ${listaNum.length/2}`)
 
- console.log(`Lista 1: ${lista1}`) 
- console.log(`Lista 2: ${lista2}`)
+console.log(`Lista 1: ${lista1}`) 
+console.log(`Lista 2: ${lista2}`)
+
+// concatenando arrays
+
+const listaDeNum1 = [1, 2, 3]
+const listaDeNum2 = [4, 5, 6]
+
+let listasConcatenadas = listaDeNum1.concat(listaDeNum2)
+
+console.log(listasConcatenadas)
