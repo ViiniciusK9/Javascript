@@ -1,6 +1,8 @@
+
 const database = require('../models')
 
 class PessoaController {
+    
     //listar todos os registros
     static async pegaTodasAsPessoas(req, res){
         try{
@@ -68,7 +70,6 @@ class PessoaController {
                 }
             })
             return res.status(200).json({ mensagem: `id ${id} deletado`})
-
         }catch (error){
             return res.status(500).json(error.message)
         }
